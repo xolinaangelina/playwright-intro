@@ -12,6 +12,10 @@ module.exports = defineConfig({
     baseURL: 'https://qauto.forstudy.space',
     trace: 'on-first-retry',
     headless: true,
+    httpCredentials: {
+      username: 'guest',
+      password: 'welcome2qauto',
+    },
   },
 
   projects: [
